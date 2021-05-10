@@ -4,9 +4,8 @@
 - 💞️ I’m looking to collaborate on projects written in rust
 
 ```Rust
-use std::char;
 fn main() {
-  println!("I {} Rust", char::from_u32(0x2764).unwrap());
+  println!("I {} Rust", '\u{2764}');
 }
 ```
 
