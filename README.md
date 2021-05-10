@@ -5,7 +5,7 @@
 
 ```Rust
 fn main() {
-  println!("I {} Rust", '\u{2764}');
+  println!("I \u{2764} Rust");
 }
 ```
 
